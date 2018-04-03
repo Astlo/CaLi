@@ -25,3 +25,5 @@ def is_actions_viable(action_i, action_j, licence):
             return True
         else:
             return False
+
+        
