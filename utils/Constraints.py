@@ -14,7 +14,7 @@ def is_compatibility_viable(license_i, license_j):
         return False
     return True
 
-def is_relation_viable(action_i, action_j, licence):
+def is_actions_viable(action_i, action_j, licence):
     if action_i in licence.permissions:
         if action_j in licence.permissions:
             return True
