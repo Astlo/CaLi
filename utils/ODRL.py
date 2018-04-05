@@ -131,17 +131,89 @@ ARBRE = [{
            'includedIn' : [{
               'name' : DISTRIBUTE,
               'includedIn' : []
+           }, {
+              'name' : PRESENT,
+              'includedIn' : []
+           }, {
+              'name' : STREAM,
+              'includedIn' : []
+           }, {
+              'name' : TEXTTOSPEECH,
+              'includedIn' : []
            }]
         }, ARBRE_DERIVE]
      }, {
         'name' : MODIFY,
         'includedIn' : [{
-           'name' : ANNOTATE,
+           'name' : ANONYMIZE,
            'includedIn' : []
         }, {
            'name' : ,
            'includedIn' : []
         }]
+     }, {
+        'name' : COMMERCIALUSE,
+        'includedIn' : []
+     }, {
+        'name' : NOTICE,
+        'includedIn' : []
+     }, {
+        'name' : SOURCECODE,
+        'includedIn' : []
+     }, {
+        'name' : ACCEPTTRACKING,
+        'includedIn' : []
+     }, {
+        'name' : ARCHIVE,
+        'includedIn' : []
+     }, {
+        'name' : ATTRIBUTE,
+        'includedIn' : []
+     }, {
+        'name' : ENSUREEXCLUSIVITY,
+        'includedIn' : []
+     }, {
+        'name' : EXECUTE,
+        'includedIn' : []
+     }, {
+        'name' : GRANTUSE,
+        'includedIn' : []
+     }, {
+        'name' : INCLUDE,
+        'includedIn' : []
+     }, {
+        'name' : INDEX,
+        'includedIn' : []
+     }, {
+        'name' : INFORM,
+        'includedIn' : []
+     }, {
+        'name' : INSTALL,
+        'includedIn' : []
+     }, {
+        'name' : NEXTPOLICY,
+        'includedIn' : []
+     }, {
+        'name' : OBTAINCONSENT,
+        'includedIn' : []
+     }, {
+        'name' : READ,
+        'includedIn' : []
+     }, {
+        'name' : REVIEWPOLICY,
+        'includedIn' : []
+     }, {
+        'name' : TRANSLATE,
+        'includedIn' : []
+     }, {
+        'name' : UNINSTALL,
+        'includedIn' : []
+     }, {
+        'name' : WATERMARK,
+        'includedIn' : []
+     }, {
+        'name' : ,
+        'includedIn' : []
      }]
 }, {
    'name' : TRANSFER,

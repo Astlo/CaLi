@@ -2,7 +2,7 @@ import utils.ODRL as ODRL
 
 
 def is_license_viable(license):
-    if not(license.permissions.isdisjoint(license.obligations) and license.permissions.isdisjoint(license.prohibitions) and license.obligations.isdisjoint(license.prohibitions)) or is_relation_viable(ODRL.REPRODUCTION, ODRL.CONCURRENTUSE, license):
+    if not(license.permissions.isdisjoint(license.obligations) and license.permissions.isdisjoint(license.prohibitions) and license.obligations.isdisjoint(license.prohibitions)):
         return False
     return True
 
@@ -25,5 +25,3 @@ def is_actions_viable(action_i, action_j, licence):
             return True
         else:
             return False
-
-        
