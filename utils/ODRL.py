@@ -14,7 +14,90 @@ REPRODUCTION = "Reproduction"
 
 SHARE_ALIKE = "ShareAlike"
 
+SHARING = "Sharing"
+
+SOURCECODE = "SourceCode"
+
+ACCEPTTRACKING = "acceptTracking"
+
+AGGREGATE = "aggregate"
+
+ANNOTATE = "annotate"
+
+ANONYMIZE = "anonymize"
+
+ARCHIVE = "archive"
+
+ATTRIBUTE = "attribute"
+
+COMPENSATE = "compensate"
+
 CONCURRENTUSE = "concurrentUse"
+
+DELETE = "delete"
+
+DERIVE = "derive"
+
+DIGITIZE = "digitize"
+
+DISTRIBUTE = "distribute"
+
+ENSUREEXCLUSIVITY = "ensureExclusivity"
+
+EXECUTE = "execute"
+
+EXTRACT = "extract"
+
+GIVE = "give"
+
+GRANTUSE = "grantUse"
+
+INCLUDE = "include"
+
+INDEX = "index"
+
+INFORM = "INFORM"
+
+INSTALL = "install"
+
+MODIFY = "modify"
+
+MOVE = "move"
+
+NEXTPOLICY = "nextPolicy"
+
+OBTAINCONSENT = "obtainConsent"
+
+PLAY = "play"
+
+PRESENT = "present"
+
+PRINT = "print"
+
+READ = "read"
+
+REPRODUCE = "reproduce"
+
+REVIEWPOLICY = "reviewPolicy"
+
+SELL = "sell"
+
+STREAM = "stream"
+
+SYNCHRONIZE = "synchronize"
+
+TEXTTOSPEECH = "textToSpeech"
+
+TRANSFER = "transfer"
+
+TRANSFORM = "transform"
+
+TRANSLATE = "translate"
+
+UNINSTALL = "uninstall"
+
+WATERMARK = "watermark"
+
 
 USE = 'use'
 
