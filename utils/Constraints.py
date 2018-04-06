@@ -25,3 +25,16 @@ def is_actions_viable(action_i, action_j, licence):
             return True
         else:
             return False
+
+def is_permissions_viale(license):
+    boolean = True
+    for permission in license.permissions
+        for key in ARBRE
+            boolean = browse_dict(key, ARBRE)
+    return boolean
+
+
+def browse_dict(node, action):
+
+    for key in ARBRE:
+        print (key), ARBRE[key]

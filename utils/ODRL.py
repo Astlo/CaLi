@@ -101,141 +101,65 @@ WATERMARK = "watermark"
 
 USE = 'use'
 
-ARBRE = [{
-    'name' : USE,
-    'includedIn' : [{
-        'name' : REPRODUCE,
-        'includedIn' : [{
-            'name' : REPRODUCTION,
-            'includedIn' : [{
-                'name' : CONCURRENTUSE,
-                'includedIn' : []
-            }, {
-               'name' : DIGITIZE,
-               'includedIn' : []
-            }]
-        }]
-     }, {
-        'name' : MOVE,
-        'includedIn' : [{
-           'name' : DELETE,
-           'includedIn' : []
-        }]
-     }, {
-        'name' : SHARING,
-        'includedIn' : [ARBRE_DERIVE]
-     }, {
-        'name' : DERIVATIVE_WORKS,
-        'includedIn' : [{
-           'name' : DISTRIBUTION,
-           'includedIn' : [{
-              'name' : DISTRIBUTE,
-              'includedIn' : []
-           }, {
-              'name' : PRESENT,
-              'includedIn' : []
-           }, {
-              'name' : STREAM,
-              'includedIn' : []
-           }, {
-              'name' : TEXTTOSPEECH,
-              'includedIn' : []
-           }]
-        }, ARBRE_DERIVE]
-     }, {
-        'name' : MODIFY,
-        'includedIn' : [{
-           'name' : ANONYMIZE,
-           'includedIn' : []
-        }, {
-           'name' : ,
-           'includedIn' : []
-        }]
-     }, {
-        'name' : COMMERCIALUSE,
-        'includedIn' : []
-     }, {
-        'name' : NOTICE,
-        'includedIn' : []
-     }, {
-        'name' : SOURCECODE,
-        'includedIn' : []
-     }, {
-        'name' : ACCEPTTRACKING,
-        'includedIn' : []
-     }, {
-        'name' : ARCHIVE,
-        'includedIn' : []
-     }, {
-        'name' : ATTRIBUTE,
-        'includedIn' : []
-     }, {
-        'name' : ENSUREEXCLUSIVITY,
-        'includedIn' : []
-     }, {
-        'name' : EXECUTE,
-        'includedIn' : []
-     }, {
-        'name' : GRANTUSE,
-        'includedIn' : []
-     }, {
-        'name' : INCLUDE,
-        'includedIn' : []
-     }, {
-        'name' : INDEX,
-        'includedIn' : []
-     }, {
-        'name' : INFORM,
-        'includedIn' : []
-     }, {
-        'name' : INSTALL,
-        'includedIn' : []
-     }, {
-        'name' : NEXTPOLICY,
-        'includedIn' : []
-     }, {
-        'name' : OBTAINCONSENT,
-        'includedIn' : []
-     }, {
-        'name' : READ,
-        'includedIn' : []
-     }, {
-        'name' : REVIEWPOLICY,
-        'includedIn' : []
-     }, {
-        'name' : TRANSLATE,
-        'includedIn' : []
-     }, {
-        'name' : UNINSTALL,
-        'includedIn' : []
-     }, {
-        'name' : WATERMARK,
-        'includedIn' : []
-     }, {
-        'name' : ,
-        'includedIn' : []
-     }]
-}, {
-   'name' : TRANSFER,
-   'includedIn' : [{
-      'name' : GIVE,
-      'includedIn' : []
-   }, {
-      'name' : SELL,
-      'includedIn' : []
-   }]
-}]
+ARBRE = {
+    USE : {
+        REPRODUCE : {
+            REPRODUCTION : {
+                CONCURRENTUSE : {},
+                DIGITIZE : {}
+            }
+        },
+        MOVE : {
+           DELETE : {}
+        },
+        SHARING : ARBRE_DERIVE,
+        DERIVATIVE_WORKS : {
+            DISTRIBUTION : {
+                DISTRIBUTE : {},
+                PRESENT : {},
+                STREAM : {},
+                TEXTTOSPEECH : {}
+            },
+            ARBRE_DERIVE
+        },
+        MODIFY : {
+            ANONYMIZE : {},
+            TRANSFORM : {},
+            ANNOTATE : {},
+        },
+        COMMERCIALUSE : {},
+        NOTICE : {},
+        SOURCECODE : {},
+        ACCEPTTRACKING : {},
+        AGGREGATE : {},
+        ARCHIVE : {},
+        ATTRIBUTE : {},
+        ENSUREEXCLUSIVITY : {},
+        EXECUTE : {},
+        GRANTUSE : {},
+        INCLUDE : {},
+        INDEX : {},
+        INFORM : {},
+        INSTALL : {},
+        NEXTPOLICY : {},
+        OBTAINCONSENT : {},
+        READ : {},
+        REVIEWPOLICY : {},
+        TRANSLATE : {},
+        UNINSTALL : {},
+        WATERMARK : {}
+     },
+   TRANSFER : {
+      GIVE : {},
+      SELL : {}
+   }
+}
 
 ARBRE_DERIVE = {
-   'name' : DERIVE,
-   'includedIn' : [{
-      'name' : PRINT,
-      'includedIn' : []
-   }, {
-      'name' : PLAY,
-      'includedIn' : [{
-         'name' : DISPLAY,
-         'includedIn' : []
-      }]
-   }]
+   DERIVE : {
+      PRINT : {},
+      PLAY : {
+         DISPLAY : {},
+      }
+   }
 }
