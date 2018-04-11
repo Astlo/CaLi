@@ -24,25 +24,40 @@ def is_actions_viable(action_i, action_j, license):
         else:
             return False
 
-def is_permissions_viable(license):
-    boolean = True
-    return boolean
-
-def browse_dict(tree, license):
+def is_permissions_viable(tree, license):
     boolean = True
     for key in ARBRE:
         if ODRL.key in license.permissions:
-            boolean = boolean and nom(ARBRE[key], license)
+            boolean = boolean and browse_permissions(ARBRE[key], license)
         else:
-            boolean = boolean and browse_dict(ARBRE[key], license)
+            boolean = boolean and is_permissions_viable(ARBRE[key], license)
     return boolean
 
-def nom(action, license):
+def browse_permissions(action, license):
     boolean = True
     if action != {}:
         for key in action:
             if not(ODRL.key in license.permissions)
                 boolean = False
             else:
-                boolean = boolean and nom(action[key], license)
+                boolean = boolean and browse_permissions(action[key], license)
+    return boolean
+
+def is_prohibitions_viable(tree, license):
+    boolean = True
+    for key in ARBRE:
+        if ODRL.key in license.prohibitions:
+            boolean = boolean and browse_prohibitions(ARBRE[key], license)
+        else:
+            boolean = boolean and is_prohibitions_viable(ARBRE[key], license)
+    return boolean
+
+def browse_prohibitions(action, license):
+    boolean = True
+    if action != {}:
+        for key in action:
+            if not(ODRL.key in license.prohibitions)
+                boolean = False
+            else:
+                boolean = boolean and browse_prohibitions(action[key], license)
     return boolean
