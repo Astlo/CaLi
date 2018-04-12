@@ -1,4 +1,4 @@
-ACTIONS = ["Attribution", "CommericalUse", "DerivativeWorks", "Distribution", "Notice", "Reproduction", "ShareAlike", "Sharing", "SourceCode", "acceptTracking", "adHocShare", "aggregate", "annotate", "anonymize", "append", "appendTo", "archive", "attachPolicy", "attachSource", "attribute", "commercialize", "compensate", "concurrentUse", "copy", "delete", "derive", "digitize", "display", "distribute", "ensureExclusivity", "execute", "export", "extract", "extractChar", "extractPage", "extractWord", "give", "grantUse", "include", "index", "inform", "install", "lease", "lend", "license", "modify", "move", "nextPolicy", "obtainConsent", "pay", "play", "present", "preview", "print", "read", "reproduce", "reviewPolicy", "secondaryUse", "sell", "share", "shareAlike", "stream", "synchronize", "textToSpeech", "transfer", "transform", "translate", "uninstall", "use", "watermark", "write", "writeTo"]
+ACTIONS = ["Attribution", "CommericalUse", "DerivativeWorks", "Distribution", "Notice", "Reproduction", "ShareAlike", "Sharing", "SourceCode", "acceptTracking", "adHocShare", "aggregate", "annotate", "anonymize", "append", "appendTo", "archive", "attachPolicy", "attachSource", "attribute", "commercialize", "compensate", "concurrentUse", "copy", "delete", "derive", "digitize", "display", "distribute", "ensureExclusivity", "execute", "export", "extract", "extractChar", "extractPage", "extractWord", "give", "grantUse", "include", "index", "inform", "install", "lease", "lend", "license", "modify", "move", "nextPolicy", "obtainConsent", "pay", "play", "present", "preview", "print", "read", "reproduce", "reviewPolicy", "secondaryUse", "sell", "share", "stream", "synchronize", "textToSpeech", "transfer", "transform", "translate", "uninstall", "use", "watermark", "write", "writeTo"]
 
 ATTRIBUTION = "Attribution"
 
@@ -40,9 +40,9 @@ DERIVE = "derive"
 
 DIGITIZE = "digitize"
 
-DISTRIBUTE = "distribute"
-
 DISPLAY = "display"
+
+DISTRIBUTE = "distribute"
 
 ENSUREEXCLUSIVITY = "ensureExclusivity"
 
@@ -58,7 +58,7 @@ INCLUDE = "include"
 
 INDEX = "index"
 
-INFORM = "INFORM"
+INFORM = "inform"
 
 INSTALL = "install"
 
@@ -132,18 +132,19 @@ ARBRE = {
         },
         MODIFY: {
             ANONYMIZE: {},
-            TRANSFORM: {},
-            ANNOTATE: {},
+            TRANSFORM: {}
         },
         COMMERCIALUSE: {},
         NOTICE: {},
         SOURCECODE: {},
         ACCEPTTRACKING: {},
         AGGREGATE: {},
+        ANNOTATE: {},
         ARCHIVE: {},
         ATTRIBUTE: {},
         ENSUREEXCLUSIVITY: {},
         EXECUTE: {},
+        EXTRACT: {},
         GRANTUSE: {},
         INCLUDE: {},
         INDEX: {},
@@ -153,12 +154,13 @@ ARBRE = {
         OBTAINCONSENT: {},
         READ: {},
         REVIEWPOLICY: {},
+        TRANSFORM: {},
         TRANSLATE: {},
         UNINSTALL: {},
-        WATERMARK: {}
-    },
-    TRANSFER: {
-        GIVE: {},
-        SELL: {}
+        WATERMARK: {},
+        TRANSFER: {
+            GIVE: {},
+            SELL: {}
+        }
     }
 }
