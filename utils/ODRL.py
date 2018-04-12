@@ -1,12 +1,12 @@
-ACTIONS = ["Attribution", "CommercialUse", "DerivativeWorks", "Distribution", "Notice", "Reproduction", "ShareAlike", "Sharing", "SourceCode", "acceptTracking", "adHocShare", "aggregate", "annotate", "anonymize", "append", "appendTo", "archive", "attachPolicy", "attachSource", "attribute", "commercialize", "compensate", "concurrentUse", "copy", "delete", "derive", "digitize", "display", "distribute", "ensureExclusivity", "execute", "export", "extract", "extractChar", "extractPage", "extractWord", "give", "grantUse", "include", "index", "inform", "install", "lease", "lend", "license", "modify", "move", "nextPolicy", "obtainConsent", "pay", "play", "present", "preview", "print", "read", "reproduce", "reviewPolicy", "secondaryUse", "sell", "share", "shareAlike", "stream", "synchronize", "textToSpeech", "transfer", "transform", "translate", "uninstall", "use", "watermark", "write", "writeTo"]
+ACTIONS = ["Attribution", "CommericalUse", "DerivativeWorks", "Distribution", "Notice", "Reproduction", "ShareAlike", "Sharing", "SourceCode", "acceptTracking", "adHocShare", "aggregate", "annotate", "anonymize", "append", "appendTo", "archive", "attachPolicy", "attachSource", "attribute", "commercialize", "compensate", "concurrentUse", "copy", "delete", "derive", "digitize", "display", "distribute", "ensureExclusivity", "execute", "export", "extract", "extractChar", "extractPage", "extractWord", "give", "grantUse", "include", "index", "inform", "install", "lease", "lend", "license", "modify", "move", "nextPolicy", "obtainConsent", "pay", "play", "present", "preview", "print", "read", "reproduce", "reviewPolicy", "secondaryUse", "sell", "share", "shareAlike", "stream", "synchronize", "textToSpeech", "transfer", "transform", "translate", "uninstall", "use", "watermark", "write", "writeTo"]
 
 ATTRIBUTION = "Attribution"
 
-COMMERCIALUSE = "CommercialUse"
+COMMERCIALUSE = "CommericalUse"
 
 DERIVATIVE_WORKS = "DerivativeWorks"
 
-DISTRIBUTION =  "Distribution"
+DISTRIBUTION = "Distribution"
 
 NOTICE = "Notice"
 
@@ -41,6 +41,8 @@ DERIVE = "derive"
 DIGITIZE = "digitize"
 
 DISTRIBUTE = "distribute"
+
+DISPLAY = "display"
 
 ENSUREEXCLUSIVITY = "ensureExclusivity"
 
@@ -98,68 +100,65 @@ UNINSTALL = "uninstall"
 
 WATERMARK = "watermark"
 
+USE = "use"
 
-USE = 'use'
-
-ARBRE = {
-    USE : {
-        REPRODUCE : {
-            REPRODUCTION : {
-                CONCURRENTUSE : {},
-                DIGITIZE : {}
-            }
-        },
-        MOVE : {
-           DELETE : {}
-        },
-        SHARING : ARBRE_DERIVE,
-        DERIVATIVE_WORKS : {
-            DISTRIBUTION : {
-                DISTRIBUTE : {},
-                PRESENT : {},
-                STREAM : {},
-                TEXTTOSPEECH : {}
-            },
-            ARBRE_DERIVE
-        },
-        MODIFY : {
-            ANONYMIZE : {},
-            TRANSFORM : {},
-            ANNOTATE : {},
-        },
-        COMMERCIALUSE : {},
-        NOTICE : {},
-        SOURCECODE : {},
-        ACCEPTTRACKING : {},
-        AGGREGATE : {},
-        ARCHIVE : {},
-        ATTRIBUTE : {},
-        ENSUREEXCLUSIVITY : {},
-        EXECUTE : {},
-        GRANTUSE : {},
-        INCLUDE : {},
-        INDEX : {},
-        INFORM : {},
-        INSTALL : {},
-        NEXTPOLICY : {},
-        OBTAINCONSENT : {},
-        READ : {},
-        REVIEWPOLICY : {},
-        TRANSLATE : {},
-        UNINSTALL : {},
-        WATERMARK : {}
-     },
-   TRANSFER : {
-      GIVE : {},
-      SELL : {}
+ARBRE_DERIVE = {
+   DERIVE: {
+      PRINT: {},
+      PLAY: {
+         DISPLAY: {}
+      }
    }
 }
 
-ARBRE_DERIVE = {
-   DERIVE : {
-      PRINT : {},
-      PLAY : {
-         DISPLAY : {},
-      }
-   }
+ARBRE = {
+    USE: {
+        REPRODUCE: {
+            REPRODUCTION: {
+                CONCURRENTUSE: {},
+                DIGITIZE: {}
+            }
+        },
+        MOVE: {
+           DELETE: {}
+        },
+        SHARING: ARBRE_DERIVE,
+        DERIVATIVE_WORKS: ARBRE_DERIVE,
+        DISTRIBUTION: {
+            DISTRIBUTE: {},
+            PRESENT: {},
+            STREAM: {},
+            TEXTTOSPEECH: {}
+        },
+        MODIFY: {
+            ANONYMIZE: {},
+            TRANSFORM: {},
+            ANNOTATE: {},
+        },
+        COMMERCIALUSE: {},
+        NOTICE: {},
+        SOURCECODE: {},
+        ACCEPTTRACKING: {},
+        AGGREGATE: {},
+        ARCHIVE: {},
+        ATTRIBUTE: {},
+        ENSUREEXCLUSIVITY: {},
+        EXECUTE: {},
+        GRANTUSE: {},
+        INCLUDE: {},
+        INDEX: {},
+        INFORM: {},
+        INSTALL: {},
+        NEXTPOLICY: {},
+        OBTAINCONSENT: {},
+        READ: {},
+        REVIEWPOLICY: {},
+        TRANSLATE: {},
+        UNINSTALL: {},
+        WATERMARK: {}
+    },
+    TRANSFER: {
+        GIVE: {},
+        SELL: {}
+    }
 }
