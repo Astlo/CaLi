@@ -1,0 +1,191 @@
+[
+	{
+		"labels": ["CC BY-ND"],
+	    "permissions": ["Distribution", "Reproduction", "CommericalUse", "modify"],
+	    "obligations": ["Attribution", "Notice"],
+	    "prohibitions": ["DerivativeWorks"],
+	    "datasets": []
+	},
+	{
+		"labels": ["CC BY-NC"],
+	    "permissions": ["Distribution", "Reproduction", "DerivativeWorks", "modify"],
+	    "obligations": ["Attribution", "Notice"],
+	    "prohibitions": ["CommericalUse"],
+	    "datasets": []
+	},
+	{
+		"labels": ["CC BY-NC-SA"],
+	    "permissions": ["Distribution", "Reproduction", "DerivativeWorks", "modify"],
+	    "obligations": ["Attribution", "Notice", "ShareAlike"],
+	    "prohibitions": ["CommericalUse"],
+	    "datasets": []
+	},
+	{
+  		"labels": ["CC BY-NC-ND"],
+	    "permissions": ["Distribution", "Reproduction", "modify"],
+	    "obligations": ["Attribution", "Notice"],
+	    "prohibitions": ["CommericalUse", "DerivativeWorks"],
+	    "datasets": []
+	},
+  {
+    "labels": ["MIT1.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["APACHE2.0"],
+    "permissions": ["", ""],
+    "obligations": ["", ""],
+    "prohibitions": ["", ""],
+    "datasets": []
+  },
+  {
+    "labels": ["GPL3.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["GPL2.0"],
+		"permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "inform"],
+    "prohibitions": ["", ""],
+    "datasets": []
+  },
+  {
+    "labels": ["BSD3.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["Notice", "ShareAlike"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+  {
+    "labels": ["Unlicense"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell", "Notice"],
+    "obligations": [],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["BSD2.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "ShareAlike"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["AGPL3.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "Attribution"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["LGPL3.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "Attribution"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["EPL1.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "ShareAlike"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+	{
+		"labels": ["CC-Zero"],
+	    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell", "Notice"],
+	    "obligations": [],
+	    "prohibitions": ["watermark"],
+	    "datasets": []
+	},
+  {
+    "labels": ["LGPL2.1"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "Attribution", "inform"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["MPL2.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+  {
+    "labels": ["ISC"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["WTFPL"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell", "Notice"],
+    "obligations": [],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["Artictic2.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["ShareAlike", "inform", "Notice"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+	{
+		"labels": ["CC-BY"],
+	    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+	    "obligations": ["Attribution", "Notice", "inform"],
+	    "prohibitions": [],
+	    "datasets": []
+	},
+  {
+    "labels": ["OSL3.0"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["SourceCode", "Notice"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+	{
+		"labels": ["CC-BY-SA"],
+			"permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+			"obligations": ["Attribution", "Notice", "ShareAlike"],
+			"prohibitions": [],
+			"datasets": []
+	},
+  {
+    "labels": ["Ms-PL"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["Attribution", "ShareAlike", "Notice"],
+    "prohibitions": ["watermark"],
+    "datasets": []
+  },
+  {
+    "labels": ["Zlib"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice"],
+    "prohibitions": [],
+    "datasets": []
+  },
+  {
+    "labels": ["OFL1.1"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["Notice"],
+    "prohibitions": ["CommericalUse", "watermark"],
+    "datasets": []
+  },
+  {
+    "labels": [""],
+    "permissions": [],
+    "obligations": [],
+    "prohibitions": [],
+    "datasets": []
+  }
+]
