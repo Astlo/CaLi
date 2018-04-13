@@ -102,14 +102,14 @@ WATERMARK = "watermark"
 
 USE = "use"
 
-ARBRE_DERIVE = {
+ARBRE_DERIVE =
    DERIVE: {
       PRINT: {},
       PLAY: {
          DISPLAY: {}
       }
    }
-}
+
 
 ARBRE = {
     USE: {
@@ -122,8 +122,13 @@ ARBRE = {
         MOVE: {
            DELETE: {}
         },
-        SHARING: ARBRE_DERIVE,
-        DERIVATIVE_WORKS: ARBRE_DERIVE,
+        SHARING: {
+            ARBRE_DERIVE
+        },
+        DERIVATIVE_WORKS: {
+            ARBRE_DERIVE,
+            SHARE_ALIKE: {}
+        },
         DISTRIBUTION: {
             DISTRIBUTE: {},
             PRESENT: {},
@@ -142,6 +147,8 @@ ARBRE = {
         ANNOTATE: {},
         ARCHIVE: {},
         ATTRIBUTE: {},
+        ATTRIBUTION: {},
+        COMPENSATE: {},
         ENSUREEXCLUSIVITY: {},
         EXECUTE: {},
         EXTRACT: {},
@@ -154,6 +161,7 @@ ARBRE = {
         OBTAINCONSENT: {},
         READ: {},
         REVIEWPOLICY: {},
+        SYNCHRONIZE: {},
         TRANSFORM: {},
         TRANSLATE: {},
         UNINSTALL: {},
