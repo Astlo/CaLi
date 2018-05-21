@@ -38,5 +38,3 @@ def is_inform_correct(license):
         return (len(license.permissions)+len(license.obligations)) > 1 
     return True
 
-def is_nextPolicy_correct(license):
-    if ODRL.NEXTPOLICY in li
