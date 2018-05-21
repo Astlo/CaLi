@@ -32,147 +32,273 @@
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "bootstrap",
+                "uri": "https://github.com/twbs/bootstrap",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["GPL3.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "x64dbg",
+                "uri": "https://github.com/x64dbg/x64dbg",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["GPL2.0"],
 		"permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode", "inform"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "vue2-elm",
+                "uri": "https://github.com/bailicangdu/vue2-elm",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["BSD3.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Notice", "ShareAlike"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "freeCodeCamp",
+                "uri": "https://github.com/freeCodeCamp/freeCodeCamp",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["Unlicense"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell", "Notice"],
     "obligations": [],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "youtube-dl",
+                "uri": "https://github.com/rg3/youtube-dl",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["BSD2.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "ShareAlike"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "lime",
+                "uri": "https://github.com/limetext/lime",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["AGPL3.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode", "Attribution"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "mastodon",
+                "uri": "https://github.com/tootsuite/mastodon",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["LGPL3.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode", "Attribution"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "go-ethereum",
+                "uri": "https://github.com/ethereum/go-ethereum",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["EPL1.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode", "ShareAlike"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "junit4",
+                "uri": "https://github.com/junit-team/junit4",
+                "description": ""
+	}
+    ]
   },
 	{
 		"labels": ["CC-Zero"],
 	    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell", "Notice"],
 	    "obligations": [],
 	    "prohibitions": ["watermark"],
-	    "datasets": []
+	    "datasets": [ 
+	{
+		"label": "gitignore",
+                "uri": "https://github.com/github/gitignore",
+                "description": ""
+	}
+    ]
 	},
   {
     "labels": ["LGPL2.1"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode", "Attribution", "inform"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "PHPMailer",
+                "uri": "https://github.com/PHPMailer/PHPMailer",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["MPL2.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Notice", "SourceCode"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "syncthing",
+                "uri": "https://github.com/syncthing/syncthing",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["ISC"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "ReLaXed",
+                "uri": "https://github.com/RelaxedJS/ReLaXed",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["WTFPL"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell", "Notice"],
     "obligations": [],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "awesome-php",
+                "uri": "https://github.com/ziadoz/awesome-php",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["Artictic2.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["ShareAlike", "inform", "Notice"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "awesome-honeypots",
+                "uri": "https://github.com/paralax/awesome-honeypots",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["CC-BY"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Attribution", "Notice", "inform"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "every-programmer-should-know",
+                "uri": "https://github.com/mtdvio/every-programmer-should-know",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["OSL3.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["SourceCode", "Notice"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "board",
+                "uri": "https://github.com/RestyaPlatform/board",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["CC-BY-SA"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Attribution", "Notice", "ShareAlike"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "coding-interview-university",
+                "uri": "https://github.com/jwasham/coding-interview-university",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["Ms-PL"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Attribution", "ShareAlike", "Notice"],
     "prohibitions": ["watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "ScreenToGif",
+                "uri": "https://github.com/NickeManarin/ScreenToGif",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["Zlib"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
     "obligations": ["Notice"],
     "prohibitions": [],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "uWebSockets",
+                "uri": "https://github.com/uNetworking/uWebSockets",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["OFL1.1"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Notice"],
     "prohibitions": ["CommericalUse", "watermark"],
-    "datasets": []
+    "datasets": [ 
+	{
+		"label": "source-code-pro",
+                "uri": "https://github.com/adobe-fonts/source-code-pro",
+                "description": ""
+	}
+    ]
   },
   {
     "labels": ["TEST1"],
