@@ -124,10 +124,20 @@ ARBRE = {
            DELETE: {}
         },
         SHARING: {
-            ARBRE_DERIVE
+            DERIVE: {
+               PRINT: {},
+               PLAY: {
+                  DISPLAY: {}
+               }
+            }
         },
         DERIVATIVE_WORKS: {
-            ARBRE_DERIVE,
+            DERIVE: {
+               PRINT: {},
+               PLAY: {
+                  DISPLAY: {}
+               }
+            },
             SHARE_ALIKE: {}
         },
         DISTRIBUTION: {
