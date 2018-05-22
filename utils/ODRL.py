@@ -102,13 +102,14 @@ WATERMARK = "watermark"
 
 USE = "use"
 
-ARBRE_DERIVE =
+ARBRE_DERIVE = {
    DERIVE: {
       PRINT: {},
       PLAY: {
          DISPLAY: {}
       }
    }
+}
 
 
 ARBRE = {
