@@ -68,7 +68,7 @@
   },
   {
     "labels": ["BSD3.0"],
-    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["Notice", "ShareAlike"],
     "prohibitions": ["watermark"],
     "datasets": [ 
