@@ -1,32 +1,4 @@
 [
-	{
-		"labels": ["CC BY-ND"],
-	    "permissions": ["Distribution", "Reproduction", "CommericalUse", "modify"],
-	    "obligations": ["Attribution", "Notice"],
-	    "prohibitions": ["DerivativeWorks"],
-	    "datasets": []
-	},
-	{
-		"labels": ["CC BY-NC"],
-	    "permissions": ["Distribution", "Reproduction", "DerivativeWorks", "modify"],
-	    "obligations": ["Attribution", "Notice"],
-	    "prohibitions": ["CommericalUse"],
-	    "datasets": []
-	},
-	{
-		"labels": ["CC BY-NC-SA"],
-	    "permissions": ["Distribution", "Reproduction", "DerivativeWorks", "modify"],
-	    "obligations": ["Attribution", "Notice", "ShareAlike"],
-	    "prohibitions": ["CommericalUse"],
-	    "datasets": []
-	},
-	{
-  		"labels": ["CC BY-NC-ND"],
-	    "permissions": ["Distribution", "Reproduction", "modify"],
-	    "obligations": ["Attribution", "Notice"],
-	    "prohibitions": ["CommericalUse", "DerivativeWorks"],
-	    "datasets": []
-	},
   {
     "labels": ["MIT1.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
