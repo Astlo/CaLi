@@ -14,8 +14,8 @@
   },
   {
     "labels": ["GPL3.0"],
-    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
-    "obligations": ["Notice", "SourceCode"],
+    "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "ShareAlike", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell"],
+    "obligations": ["Notice", "SourceCode", "inform"],
     "prohibitions": [],
     "datasets": [ 
 	{
@@ -182,7 +182,7 @@
     ]
   },
   {
-    "labels": ["Artictic2.0"],
+    "labels": ["Artistic2.0"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
     "obligations": ["ShareAlike", "inform", "Notice"],
     "prohibitions": ["watermark"],
