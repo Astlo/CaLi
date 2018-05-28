@@ -273,6 +273,19 @@
     ]
   },
   {
+    "labels": ["Apache-2.0"],
+    "permissions": ["Notice", "CommericalUse", "watermark", "use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing", "DerivativeWorks", "derive", "print", "play", "display", "Distribution", "distribute", "present", "stream",  "textToSpeech", "modify", "anonymize", "transform", "annotate", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "transfer", "give", "sell"],
+    "obligations": ["ShareAlike",  "Attribution"],
+    "prohibitions": [],
+    "datasets": [ 
+	{
+		"label": "tensorflow",
+                "uri": "https://github.com/tensorflow/tensorflow",
+                "description": ""
+	}
+    ]
+  },
+  {
     "labels": ["TEST1"],
     "permissions": ["use", "reproduce", "Reproduction", "concurrentUse", "digitize", "move", "delete", "Sharing",  "Distribution", "distribute", "present", "stream", "textToSpeech", "modify", "anonymize", "transform", "annotate", "CommericalUse", "SourceCode", "acceptTracking", "aggregate", "archive", "attribute", "Attribution", "compensate", "ensureExclusivity", "execute", "extract", "grantUse", "include", "index", "inform", "install", "nextPolicy", "obtainConsent", "read", "reviewPolicy", "synchronize", "transform", "translate", "uninstall", "watermark", "transfer", "give", "sell", "Notice"],
     "obligations": [],
